@@ -1,0 +1,184 @@
+
+
+    @font-face {
+        font-family: 'Playfair Display';
+        src: url('../font/PlayfairDisplay-VariableFont_wght.ttf');
+    }
+    @font-face {
+        font-family: 'RobotoSlab';
+        src: url('../font/RobotoSlab-VariableFont_wght.ttf');
+    }
+    @font-face {
+        font-family: 'WorkSans';
+        src: url('../font/WorkSans-VariableFont_wght.ttf');
+    }
+    @font-face{
+        font-family: 'Inter';
+        src: url('../font/Inter-VariableFont_slnt,wght.ttf')
+    }
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+#moeda{
+    font-size: 1.5em;
+}
+
+#efeito{
+    justify-content: center;
+    width: 20%;
+    align-items: center;
+    display: flex;
+    
+}
+
+#harry{
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0px 100px 0px;
+     margin: 5px 0px;
+}
+
+
+#boton{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    
+    
+    background-color: #FFF;
+    margin: 3px auto;
+    padding: 9px 0px;
+    font-size: 1em;
+    width: 100px;
+    text-align: center; 
+
+}
+
+#boton a {
+    display: block;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding: 10px 0px;
+}
+
+#mione{
+    display: flex;
+    background-color: #FFF;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    margin: 3px auto;
+    padding: 9px 0px;
+    font-size: 1em;
+    width: 100px;
+    text-align: center;
+}
+#blabla{
+    display: block;
+    background-color: #FFF;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    margin: 3px auto;
+    padding: 9px 0px;
+    font-size: 1em;
+    width: 100px;
+    text-align: center;
+}
+
+body{
+    background-color: rgb(112, 2, 2);
+}
+
+#imginicio{
+    
+    background-image: url(../img/fundo.jpg);
+    background-size: cover;
+    background-position: center;
+   
+    padding: 250px 0px 250px 0px;
+    margin: 0px 0px;
+}
+#boton{
+    width: 100%;
+    background-color: rgb(255, 255, 255);    ;
+    top: 103px;
+    left: -100%;
+    position: absolute;
+    transition: 0.7s left ease;
+}
+
+#dolar p {
+
+    text-align: justify;
+}
+    
+#imgdoleta {
+    background-image: url(../img/dólar.jpg);
+    background-size: cover;
+    background-position: center;
+   
+    padding: 100px 0px 100px 0px;
+    margin: 20px 0px;
+}
+
+#euro p {
+
+    text-align: justify;
+}
+#imgeureto{
+    background-image: url(../img/euro.jpg);
+    background-size: cover;
+    background-position: center;
+   
+    padding: 100px 0px 100px 0px;
+    margin: 20px 0px;
+}
+#libra p {
+
+    text-align: justify;
+}
+#imglibreta{
+    background-image: url(../img/libraesterlina.jpg);
+    background-size: cover;
+    background-position: center;
+   
+    padding: 100px 0px 100px 0px;
+    margin: 20px 0px;
+}
+#lene p {
+
+    text-align: justify;
+}
+
+#imglene{
+    background-image: url(../img/iene.jpg);
+    background-size: cover;
+    background-position: center;
+   
+    padding: 100px 0px 100px 0px;
+    margin: 20px 0px;
+}
+#franco p {
+
+    text-align: justify;
+}
+#frangosuico{
+    background-image: url(../img/francosuico.jpg);
+    background-size: cover;
+    background-position: center;
+   
+    padding: 100px 0px 100px 0px;
+    margin: 20px 0px;
+}
+
+#textlistamoeda p{
+text-align: justify;
+text-shadow: black;
+}
+
+.mostrar{
+    left: 0px !important;
+}
